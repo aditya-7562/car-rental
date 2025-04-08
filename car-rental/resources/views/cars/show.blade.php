@@ -23,7 +23,7 @@
                                 <p class="text-gray-600 text-lg">{{ $car->model }}</p>
                             </div>
                             <div class="bg-blue-600 text-white px-4 py-2 rounded-md text-lg font-bold">
-                                ${{ $car->price_per_day }}/day
+                                ₹{{ $car->price_per_day }}/day
                             </div>
                         </div>
                         
@@ -113,7 +113,8 @@
                                     </div>
                                     
                                     <div class="mb-6 p-4 bg-gray-100 rounded-md">
-                                        <p class="text-gray-700 mb-2">Price: <span class="font-bold">${{ $car->price_per_day }}</span> per day</p>
+                                        <p class="text-gray-700 font-medium mb-1">Price per day:</p>
+                                        <p class="text-xl font-bold text-blue-600">₹{{ $car->price_per_day }}</p>
                                         <p class="text-gray-700 text-sm">Final price will be calculated based on your selected dates.</p>
                                     </div>
                                     
@@ -152,7 +153,7 @@
                                 <div class="p-6">
                                     <div class="flex justify-between items-center mb-2">
                                         <h3 class="text-xl font-bold">{{ $similar_car->name }}</h3>
-                                        <span class="bg-blue-600 text-white px-2 py-1 rounded-md text-sm">${{ $similar_car->price_per_day }}/day</span>
+                                        <span class="bg-blue-600 text-white px-2 py-1 rounded-md text-sm">₹{{ $similar_car->price_per_day }}/day</span>
                                     </div>
                                     <p class="text-gray-600 mb-4">{{ $similar_car->model }}</p>
                                     <a href="{{ route('cars.show', $similar_car) }}" class="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-2 rounded-md transition duration-300">
@@ -187,7 +188,7 @@
                     const totalPrice = daysDiff * pricePerDay;
                     
                     document.querySelector('.mb-6.p-4.bg-gray-100 p.text-gray-700.mb-2').innerHTML = 
-                        `Price: <span class="font-bold">$${pricePerDay}</span> per day × ${daysDiff} days = <span class="font-bold">$${totalPrice}</span>`;
+                        `Price: <span class="font-bold">₹${pricePerDay}</span> per day × ${daysDiff} days = <span class="font-bold">₹${totalPrice}</span>`;
                 }
             };
             

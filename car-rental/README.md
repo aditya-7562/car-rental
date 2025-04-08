@@ -1,4 +1,4 @@
-# Car Rental Website - Laravel Project
+# PJ Rentals - Laravel Project
 
 A comprehensive car rental website built with Laravel, featuring user authentication, car listings, filtering, booking system, and more.
 

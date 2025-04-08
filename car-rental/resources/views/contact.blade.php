@@ -22,9 +22,9 @@
                     <div class="mb-8">
                         <h3 class="text-lg font-semibold mb-2">Campus Location</h3>
                         <address class="text-gray-700 not-italic">
-                            123 College Ave<br>
-                            University District, UD 54321<br>
-                            United States
+                            Rajeev Pg, Chaheru<br>
+                            Law gate road, JALANDHAR<br>
+                            PUNJAB 144411, India
                         </address>
                     </div>
                     
@@ -34,7 +34,7 @@
                             <strong>Phone:</strong> <a href="tel:+1234567890" class="hover:text-primary-600">(123) 456-7890</a>
                         </p>
                         <p class="text-gray-700 mb-2">
-                            <strong>Email:</strong> <a href="mailto:campus@rentmyride.com" class="hover:text-primary-600">campus@rentmyride.com</a>
+                            <strong>Email:</strong> <a href="mailto:campus@pjrentals.com" class="hover:text-primary-600">campus@pjrentals.com</a>
                         </p>
                         <p class="text-gray-700 mb-2">
                             <strong>Student Support:</strong> <a href="tel:+1234567899" class="hover:text-primary-600">(123) 456-7899</a>
@@ -202,26 +202,26 @@
         const marker = new google.maps.Marker({
             position: campusLocation,
             map: map,
-            title: "RentMyRide Campus Office",
+            title: "PJ Rentals",
             animation: google.maps.Animation.DROP
         });
         
         // Define the full address for copy functionality
-        const fullAddress = "123 College Ave, University District, UD 54321, United States";
+        const fullAddress = "Rajeev Pg, Chaheru, Law gate road, JALANDHAR, PUNJAB 144411, India";
         
         // Info window with additional details
         const infoWindow = new google.maps.InfoWindow({
             content: `
                 <div class="p-3">
-                    <h3 class="font-bold text-lg mb-1">RentMyRide Campus Office</h3>
-                    <p class="mb-1">123 College Ave</p>
-                    <p class="mb-1">University District, UD 54321</p>
-                    <p class="mb-1">United States</p>
+                    <h3 class="font-bold text-lg mb-1">PJ Rentals</h3>
+                    <p class="mb-1">Rajeev Pg, Chaheru</p>
+                    <p class="mb-1">Law gate road, JALANDHAR</p>
+                    <p class="mb-1">PUNJAB 144411, India</p>
                     <p class="mt-2">
                         <a href="tel:+1234567890" class="text-blue-600 hover:underline">(123) 456-7890</a>
                     </p>
                     <p>
-                        <a href="mailto:campus@rentmyride.com" class="text-blue-600 hover:underline">campus@rentmyride.com</a>
+                        <a href="mailto:campus@pjrentals.com" class="text-blue-600 hover:underline">campus@pjrentals.com</a>
                     </p>
                     <p class="mt-2 text-sm text-gray-600">Student support available 7 days a week</p>
                     <div class="mt-3 flex flex-wrap gap-2">

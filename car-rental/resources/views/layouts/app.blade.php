@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name', 'RentMyRide') }} - @yield('title', 'Car Rentals for Students')</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>PJ Rentals - @yield('title', 'Car Rentals for Students')</title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -208,7 +210,7 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">{{ config('app.name', 'RentMyRide') }}</h3>
+                    <h3 class="text-xl font-bold mb-4">{{ config('app.name', 'PJ Rentals') }}</h3>
                     <p class="text-gray-400">Affordable car rentals for students. Perfect for weekend trips, vacations, or just getting around campus. No hidden fees, just easy driving.</p>
                 </div>
                 <div>
@@ -232,15 +234,16 @@
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
                     <address class="text-gray-400 not-italic">
-                        123 College Ave<br>
-                        University District, UD 54321<br>
-                        <a href="tel:+1234567890" class="hover:text-white">Phone: (123) 456-7890</a><br>
-                        <a href="mailto:campus@rentmyride.com" class="hover:text-white">Email: campus@rentmyride.com</a>
+                        Rajeev Pg, Chaheru<br>
+                        Law gate road, JALANDHAR<br>
+                        PUNJAB 144411, India<br>
+                        <a href="tel:+1234567890" class="hover:text-white">Phone: 9780512489</a><br>
+                        <a href="mailto:campus@pjrentals.com" class="hover:text-white">Email: info@pjrentals.in</a>
                     </address>
                 </div>
             </div>
             <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-                <p>&copy; {{ date('Y') }} {{ config('app.name', 'RentMyRide') }}. All rights reserved.</p>
+                <p>&copy; {{ date('Y') }} {{ config('app.name', 'PJ Rentals') }}. All rights reserved.</p>
             </div>
         </div>
     </footer>

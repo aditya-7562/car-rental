@@ -95,7 +95,7 @@
                         <div class="p-6">
                             <div class="flex justify-between items-center mb-3">
                                 <h3 class="text-xl font-bold">{{ $car->name }}</h3>
-                                <span class="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">${{ $car->price_per_day }}/day</span>
+                                <span class="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">₹{{ $car->price_per_day }}/day</span>
                             </div>
                             <p class="text-gray-600 mb-4">{{ $car->model }}</p>
                             <div class="flex flex-wrap items-center text-gray-500 text-sm mb-5 gap-y-2">
@@ -153,7 +153,7 @@
                             JS
                         </div>
                         <div>
-                            <p class="font-medium">Jamie S.</p>
+                            <p class="font-medium">Tarun Mathur</p>
                             <p class="text-sm text-gray-500">Biology Major</p>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                             MT
                         </div>
                         <div>
-                            <p class="font-medium">Mike T.</p>
+                            <p class="font-medium">Vikash Kumar</p>
                             <p class="text-sm text-gray-500">Computer Science</p>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                             AL
                         </div>
                         <div>
-                            <p class="font-medium">Ashley L.</p>
+                            <p class="font-medium">Nitin Sharma</p>
                             <p class="text-sm text-gray-500">Psychology Student</p>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
             <h2 class="text-3xl font-bold mb-4">Ready for Your Next Adventure?</h2>
             <p class="text-xl mb-8 max-w-3xl mx-auto">Whether it's a weekend getaway, a campus move, or a spontaneous road trip with friends, we've got you covered.</p>
             <a href="{{ route('register') }}" class="bg-white text-primary-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full text-lg inline-block transition duration-300">
-                Sign Up with Student ID
+                Sign Up Here!
             </a>
         </div>
     </section>

@@ -18,13 +18,13 @@
                 <div class="md:w-1/2">
                     <h2 class="text-3xl font-bold mb-6">Our Story</h2>
                     <p class="mb-4 text-gray-700">
-                        Founded in 2010, RentMyRide began with a simple mission: to provide high-quality car rentals with exceptional customer service. What started as a small fleet of just five cars has grown into one of the most trusted car rental services in the region.
+                        Founded in 2020, PJ Rentals began with a simple mission: to provide high-quality car rentals with exceptional customer service. What started as a small fleet of just three cars has grown into one of the most trusted car rental services in the region.
                     </p>
                     <p class="mb-4 text-gray-700">
-                        Our founder, John Smith, noticed a gap in the market for reliable, transparent car rental services. After experiencing frustration with hidden fees and poor customer service from other rental companies, John decided to create a better alternative.
+                        Our founder, JasVinder Singh, noticed a gap in the market for reliable, transparent car rental services. After experiencing frustration with hidden fees and poor customer service from other rental companies, Jassi decided to create a better alternative.
                     </p>
                     <p class="text-gray-700">
-                        Today, RentMyRide operates a diverse fleet of over 100 vehicles, ranging from economical compact cars to luxury SUVs and sports cars. We continue to adhere to our core values of transparency, reliability, and customer satisfaction in everything we do.
+                        Today, PJ Rentals operates a diverse fleet of over 35 vehicles, ranging from economical compact cars to luxury SUVs and sports cars. We continue to adhere to our core values of transparency, reliability, and customer satisfaction in everything we do.
                     </p>
                 </div>
                 <div class="md:w-1/2">
@@ -85,26 +85,26 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="text-center">
                     <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
-                         alt="John Smith - CEO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
-                    <h3 class="text-xl font-semibold">John Smith</h3>
+                         alt="JasVinder Singh - CEO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">JasVinder Singh</h3>
                     <p class="text-blue-600 mb-3">Founder & CEO</p>
-                    <p class="text-gray-600 max-w-xs mx-auto">John founded RentMyRide with a vision to transform the car rental industry.</p>
+                    <p class="text-gray-600 max-w-xs mx-auto">Jassi founded PJ Rentals with a vision to transform the car rental industry.</p>
                 </div>
                 
                 <div class="text-center">
                     <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
                          alt="Sarah Johnson - COO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
-                    <h3 class="text-xl font-semibold">Sarah Johnson</h3>
+                    <h3 class="text-xl font-semibold">Aman Singh</h3>
                     <p class="text-blue-600 mb-3">Chief Operations Officer</p>
-                    <p class="text-gray-600 max-w-xs mx-auto">Sarah oversees all operational aspects of our business, ensuring smooth service delivery.</p>
+                    <p class="text-gray-600 max-w-xs mx-auto">Aman oversees all operational aspects of our business, ensuring smooth service delivery.</p>
                 </div>
                 
                 <div class="text-center">
                     <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
                          alt="Michael Brown - CTO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
-                    <h3 class="text-xl font-semibold">Michael Brown</h3>
+                    <h3 class="text-xl font-semibold">Anurag Singh</h3>
                     <p class="text-blue-600 mb-3">Chief Technology Officer</p>
-                    <p class="text-gray-600 max-w-xs mx-auto">Michael leads our technology initiatives, focusing on enhancing the customer experience through innovation.</p>
+                    <p class="text-gray-600 max-w-xs mx-auto">Anurag leads our technology initiatives, focusing on enhancing the customer experience through innovation.</p>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
     <section class="py-16 bg-blue-600 text-white text-center">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold mb-4">Join Our Journey</h2>
-            <p class="text-xl mb-8 max-w-3xl mx-auto">Experience the RentMyRide difference today. Book a car and be part of our growing family of satisfied customers.</p>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Experience the PJ Rentals difference today. Book a car and be part of our growing family of satisfied customers.</p>
             <a href="{{ route('register') }}" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-md text-lg transition duration-300">
                 Get Started Now
             </a>

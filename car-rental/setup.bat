@@ -1,5 +1,5 @@
 @echo off
-echo ===== RentMyRide Car Rental Application Setup =====
+echo ===== PJ Rentals Application Setup =====
 echo.
 
 REM Check for PHP

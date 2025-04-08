@@ -37,7 +37,7 @@
                         
                         <div class="bg-gray-100 p-4 rounded-md mb-6">
                             <p class="text-gray-700 font-medium mb-1">Price per day:</p>
-                            <p class="text-xl font-bold text-blue-600">${{ $car->price_per_day }}</p>
+                            <p class="text-xl font-bold text-blue-600">₹{{ $car->price_per_day }}</p>
                         </div>
                         
                         <div class="text-gray-700">
@@ -94,7 +94,7 @@
                             </div>
                             
                             <div id="price-calculation" class="mb-6 p-4 bg-gray-100 rounded-md">
-                                <p class="text-gray-700 mb-2">Price: <span class="font-bold">${{ $car->price_per_day }}</span> per day</p>
+                                <p class="text-gray-700 mb-2">Price: <span class="font-bold">₹{{ $car->price_per_day }}</span> per day</p>
                                 <p class="text-gray-700 text-sm">Select dates to calculate total price</p>
                             </div>
                             
@@ -140,8 +140,8 @@
                 const totalPrice = daysDiff * pricePerDay;
                 
                 priceCalculation.innerHTML = `
-                    <p class="text-gray-700 mb-2">Price: <span class="font-bold">$${pricePerDay}</span> per day × ${daysDiff} days</p>
-                    <p class="text-xl font-bold text-blue-600">Total: $${totalPrice}</p>
+                    <p class="text-gray-700 mb-2">Price: <span class="font-bold">₹${pricePerDay}</span> per day × ${daysDiff} days</p>
+                    <p class="text-xl font-bold text-blue-600">Total: ₹${totalPrice}</p>
                 `;
             }
         };

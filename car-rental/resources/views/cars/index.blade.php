@@ -52,13 +52,13 @@
                                 <h3 class="font-medium mb-2">Price Range (per day)</h3>
                                 <div class="grid grid-cols-2 gap-3">
                                     <div>
-                                        <label for="min_price" class="block text-sm text-gray-700 mb-1">Min ($)</label>
+                                        <label for="min_price" class="block text-sm text-gray-700 mb-1">Min (₹)</label>
                                         <input type="number" id="min_price" name="min_price" 
                                             value="{{ request('min_price') }}" min="0" 
                                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500">
                                     </div>
                                     <div>
-                                        <label for="max_price" class="block text-sm text-gray-700 mb-1">Max ($)</label>
+                                        <label for="max_price" class="block text-sm text-gray-700 mb-1">Max (₹)</label>
                                         <input type="number" id="max_price" name="max_price" 
                                             value="{{ request('max_price') }}" min="0" 
                                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500">
@@ -93,7 +93,7 @@
                                 <div class="p-6">
                                     <div class="flex justify-between items-center mb-3">
                                         <h3 class="text-xl font-bold">{{ $car->name }}</h3>
-                                        <span class="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">${{ $car->price_per_day }}/day</span>
+                                        <span class="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">₹{{ $car->price_per_day }}/day</span>
                                     </div>
                                     <p class="text-gray-600 mb-4">{{ $car->model }}</p>
                                     <div class="flex flex-wrap items-center text-gray-500 text-sm mb-4 gap-y-2">

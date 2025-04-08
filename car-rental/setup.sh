@@ -3,7 +3,7 @@
 # Exit on error
 set -e
 
-echo "===== RentMyRide Car Rental Application Setup ====="
+echo "===== PJ Rentals Application Setup ====="
 echo ""
 
 # Check for PHP
