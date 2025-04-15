@@ -18,9 +18,10 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         // Create admin user
-        User::create([
-            'name' => 'Admin User',
+        User::updateOrCreate([
             'email' => 'admin@example.com',
+        ], [
+            'name' => 'Admin User',
             'password' => Hash::make('password'),
             'phone_number' => '123-456-7890',
             'address' => '123 Admin Street, Admin City',
@@ -29,9 +30,10 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // Create regular user
-        User::create([
-            'name' => 'John Doe',
+        User::updateOrCreate([
             'email' => 'john@example.com',
+        ], [
+            'name' => 'John Doe',
             'password' => Hash::make('password'),
             'phone_number' => '987-654-3210',
             'address' => '456 User Street, User City',
@@ -139,7 +141,7 @@ class DatabaseSeeder extends Seeder
         ];
 
         foreach ($cars as $car) {
-            Car::create($car);
+            Car::updateOrCreate($car);
         }
     }
 }
