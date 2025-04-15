@@ -141,7 +141,7 @@ class DatabaseSeeder extends Seeder
         ];
 
         foreach ($cars as $car) {
-            Car::updateOrCreate($car);
+            Car::create($car);
         }
     }
 }
