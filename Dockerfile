@@ -2,13 +2,14 @@ FROM dunglas/frankenphp:php8.3-bookworm
 
 ENV SERVER_NAME=":8080"
 
-# Install dependencies
+# Install system dependencies and PostgreSQL driver
 RUN apt-get update && apt-get install -y \
     ca-certificates \
     curl \
     git \
     unzip \
     libpq-dev \
+    && docker-php-ext-install pdo_pgsql \
     && update-ca-certificates
 
 # Install Composer manually with TLS disabled
@@ -24,7 +25,7 @@ WORKDIR /app
 
 COPY . .
 
-# Disable TLS (safe for dev/testing environments)
+# Disable TLS and install PHP dependencies
 RUN composer config --global disable-tls true && \
     composer install \
         --ignore-platform-reqs \
