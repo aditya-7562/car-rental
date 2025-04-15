@@ -1,0 +1,3 @@
+FROM dunglas/frankenphp:php8.3-bookworm
+ 
+RUN install-php-extensions pdo_pgsql

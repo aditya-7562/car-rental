@@ -1,0 +1,60 @@
+services:
+  init:
+    build:
+      dockerfile: Dockerfile.dev
+    command: php artisan migrate
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: pj_rentals
+      DB_USERNAME: postgres
+      DB_PASSWORD: admin
+  seeder:
+    build:
+      dockerfile: Dockerfile.dev
+    command: php artisan db:seed
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: pj_rentals
+      DB_USERNAME: postgres
+      DB_PASSWORD: admin
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      SERVER_NAME: ":8080"
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: pj_rentals
+      DB_USERNAME: postgres
+      DB_PASSWORD: admin
+    ports:
+      - 8080:8080
+    depends_on:
+      seeder:
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+  db:
+    image: postgres:16.4-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: pj_rentals
+    volumes:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB
+      interval: 1s
