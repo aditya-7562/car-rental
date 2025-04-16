@@ -88,11 +88,11 @@
                         </div>
                         <div>
                             <p class="text-gray-700 font-medium mb-1">Daily Rate:</p>
-                            <p>${{ $booking->car->price_per_day }}</p>
+                            <p>₹{{ $booking->car->price_per_day }}</p>
                         </div>
                         <div class="md:col-span-2">
                             <p class="text-gray-700 font-medium mb-1">Total Price:</p>
-                            <p class="text-xl font-bold text-blue-600">${{ $booking->total_price }}</p>
+                            <p class="text-xl font-bold text-blue-600">₹{{ $booking->total_price }}</p>
                         </div>
                         
                         @if ($booking->special_requests)
