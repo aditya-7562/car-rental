@@ -18,14 +18,14 @@
                 <div class="mb-10">
                     <h2 class="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
                     <p class="text-gray-700 mb-4">
-                        By accessing or using the RentMyRide website and services, you agree to be bound by these Terms and Conditions. If you do not agree to all the terms and conditions, you must not use our services.
+                        By accessing or using the PJ Rentals website and services, you agree to be bound by these Terms and Conditions. If you do not agree to all the terms and conditions, you must not use our services.
                     </p>
                 </div>
 
                 <div class="mb-10">
                     <h2 class="text-2xl font-bold mb-4">2. Rental Eligibility</h2>
                     <p class="text-gray-700 mb-4">
-                        To rent a vehicle from RentMyRide, you must:
+                        To rent a vehicle from PJ Rentals, you must:
                     </p>
                     <ul class="list-disc pl-8 mb-4 text-gray-700 space-y-2">
                         <li>Be at least 21 years of age</li>
@@ -99,14 +99,14 @@
                 <div class="mb-10">
                     <h2 class="text-2xl font-bold mb-4">7. Privacy Policy</h2>
                     <p class="text-gray-700 mb-4">
-                        RentMyRide collects and processes personal data in accordance with our Privacy Policy. By using our services, you consent to our data practices as described in the Privacy Policy.
+                        PJ Rentals collects and processes personal data in accordance with our Privacy Policy. By using our services, you consent to our data practices as described in the Privacy Policy.
                     </p>
                 </div>
 
                 <div>
                     <h2 class="text-2xl font-bold mb-4">8. Modifications to Terms</h2>
                     <p class="text-gray-700 mb-4">
-                        RentMyRide reserves the right to modify these Terms and Conditions at any time. Updated terms will be posted on our website, and the changes will be effective immediately upon posting.
+                        PJ Rentals reserves the right to modify these Terms and Conditions at any time. Updated terms will be posted on our website, and the changes will be effective immediately upon posting.
                     </p>
                     <p class="text-gray-700">
                         It is the user's responsibility to check these Terms and Conditions periodically for changes.

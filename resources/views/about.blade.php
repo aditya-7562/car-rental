@@ -78,7 +78,7 @@
     </section>
 
     <!-- Team Section -->
-    <section class="py-16">
+    <!-- <section class="py-16">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
             
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Call to Action Section -->
     <section class="py-16 bg-blue-600 text-white text-center">
