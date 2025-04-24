@@ -20,7 +20,7 @@
                     <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
                     
                     <div class="mb-8">
-                        <h3 class="text-lg font-semibold mb-2">Campus Location</h3>
+                        <h3 class="text-lg font-semibold mb-2">Location</h3>
                         <address class="text-gray-700 not-italic">
                             Rajeev Pg, Chaheru<br>
                             Law gate road, JALANDHAR<br>
@@ -31,14 +31,14 @@
                     <div class="mb-8">
                         <h3 class="text-lg font-semibold mb-2">Contact Information</h3>
                         <p class="text-gray-700 mb-2">
-                            <strong>Phone:</strong> <a href="tel:+1234567890" class="hover:text-primary-600">(123) 456-7890</a>
+                            <strong>Phone:</strong> <a href="tel:9780512489" class="hover:text-primary-600">9780512489</a>
                         </p>
                         <p class="text-gray-700 mb-2">
-                            <strong>Email:</strong> <a href="mailto:campus@pjrentals.com" class="hover:text-primary-600">campus@pjrentals.com</a>
+                            <strong>Email:</strong> <a href="mailto:info@pjrentals.com" class="hover:text-primary-600">info@pjrentals.com</a>
                         </p>
-                        <p class="text-gray-700 mb-2">
-                            <strong>Student Support:</strong> <a href="tel:+1234567899" class="hover:text-primary-600">(123) 456-7899</a>
-                        </p>
+                        <!-- <p class="text-gray-700 mb-2">
+                            <strong>Support:</strong> <a href="tel:+1234567899" class="hover:text-primary-600">(123) 456-7899</a>
+                        </p> -->
                     </div>
                     
                     <div class="mb-8">
@@ -49,7 +49,7 @@
                         <p class="text-gray-700 mt-3 text-sm italic">*Extended hours available during finals week and move-in/move-out periods</p>
                     </div>
                     
-                    <div>
+                    <!-- <div>
                         <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
                         <div class="flex space-x-4">
                             <a href="#" class="text-gray-700 hover:text-primary-600" aria-label="Facebook">
@@ -73,7 +73,7 @@
                                 </svg>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <!-- Contact Form -->
@@ -134,8 +134,8 @@
     <!-- Map Section -->
     <section class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-4">Find Us on Campus</h2>
-            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">Our campus office is conveniently located near the University Student Center. Free parking is available for customers in the visitor's parking lot.</p>
+            <h2 class="text-3xl font-bold text-center mb-4">Find Us</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">Our main office is conveniently located near the University main gate. Free parking is available for customers in the visitor's parking lot.</p>
             
             <div id="map" class="h-96 bg-gray-300 rounded-lg shadow-md"></div>
             
@@ -218,10 +218,10 @@
                     <p class="mb-1">Law gate road, JALANDHAR</p>
                     <p class="mb-1">PUNJAB 144411, India</p>
                     <p class="mt-2">
-                        <a href="tel:+1234567890" class="text-blue-600 hover:underline">(123) 456-7890</a>
+                        <a href="tel:9780512489" class="text-blue-600 hover:underline">9780512489</a>
                     </p>
                     <p>
-                        <a href="mailto:campus@pjrentals.com" class="text-blue-600 hover:underline">campus@pjrentals.com</a>
+                        <a href="mailto:info@pjrentals.com" class="text-blue-600 hover:underline">info@pjrentals.com</a>
                     </p>
                     <p class="mt-2 text-sm text-gray-600">Student support available 7 days a week</p>
                     <div class="mt-3 flex flex-wrap gap-2">
