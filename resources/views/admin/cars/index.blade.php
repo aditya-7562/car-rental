@@ -58,7 +58,7 @@
                                 <td class="px-6 py-4">{{ $car->model }}</td>
                                 <td class="px-6 py-4">{{ ucfirst($car->car_type) }}</td>
                                 <td class="px-6 py-4">{{ ucfirst($car->fuel_type) }}</td>
-                                <td class="px-6 py-4">${{ $car->price_per_day }}</td>
+                                <td class="px-6 py-4">₹{{ $car->price_per_day }}</td>
                                 <td class="px-6 py-4">
                                     @if ($car->available)
                                         <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Available</span>

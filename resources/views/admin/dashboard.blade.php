@@ -112,7 +112,7 @@
                                 <td class="px-6 py-4">
                                     {{ $booking->pickup_date->format('M d, Y') }} to {{ $booking->return_date->format('M d, Y') }}
                                 </td>
-                                <td class="px-6 py-4">${{ $booking->total_price }}</td>
+                                <td class="px-6 py-4">₹{{ $booking->total_price }}</td>
                                 <td class="px-6 py-4">
                                     @if ($booking->status == 'confirmed')
                                         <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Confirmed</span>

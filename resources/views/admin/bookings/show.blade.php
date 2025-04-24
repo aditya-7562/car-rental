@@ -63,7 +63,7 @@
                             </div>
                             <div>
                                 <p class="text-sm text-gray-600 mb-1">Total Price</p>
-                                <p class="font-semibold">${{ $booking->total_price }}</p>
+                                <p class="font-semibold">₹{{ $booking->total_price }}</p>
                             </div>
                         </div>
                         

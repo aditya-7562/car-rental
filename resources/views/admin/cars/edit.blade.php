@@ -46,7 +46,7 @@
                     
                     <!-- Price Per Day -->
                     <div>
-                        <label for="price_per_day" class="block text-sm font-medium text-gray-700 mb-1">Price Per Day ($) *</label>
+                        <label for="price_per_day" class="block text-sm font-medium text-gray-700 mb-1">Price Per Day (₹) *</label>
                         <input type="number" step="0.01" min="0" name="price_per_day" id="price_per_day" value="{{ old('price_per_day', $car->price_per_day) }}" required
                             class="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                     </div>
