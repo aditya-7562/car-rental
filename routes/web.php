@@ -64,3 +64,11 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () 
     Route::patch('/messages/{message}/read', [AdminController::class, 'markMessageAsRead'])->name('messages.read');
     Route::delete('/messages/{message}', [AdminController::class, 'deleteMessage'])->name('messages.delete');
 });
+
+Route::get('storage/{path}', function($path) {
+    $filePath = storage_path('app/public/' . $path);
+    if (!file_exists($filePath)) {
+        abort(404, 'File not found');
+    }
+    return response()->file($filePath);
+})->where('path', '.*');
